@@ -1,0 +1,178 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap');
+    /*font-family: 'Zen Tokyo Zoo', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@1,200&display=swap');
+    /*font-family: 'Source Sans Pro', sans-serif;*/
+}
+html{
+    /*плаваная прокрутка*/
+    scroll-behavior: smooth;
+     /*чтобы хром не прокручивал к концу станицы при загрузке*/
+    overflow-anchor: none;
+}
+
+@media screen and (max-width: 550px) {
+    header {
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .my_works {
+        flex-direction: column;
+    }
+}
+
+body {
+    background-color: moccasin;
+    font-family: 'Anton', sans-serif;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 800px;
+    background-color: burlywood;
+    padding: 10px;
+}
+
+
+
+.nav-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-list a {
+    text-decoration: none;
+}
+
+.nav-list li {
+    list-style: none;
+}
+
+.list-contacts {
+    list-style: none;
+}
+
+.list-contacts li {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+h1 {
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+
+h2 {
+    font-family: 'Zen Tokyo Zoo', cursive;
+    padding-bottom: 15px;
+}
+
+header {
+    display: flex;
+
+    justify-content: space-around;
+    align-items: center;
+
+    width: 100%;
+    max-width: 1024px;
+    flex-wrap: wrap;
+    border-bottom: 3px solid black;
+}
+
+.col-1 {
+    width: 50%;
+}
+
+.col-2 {
+    width: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+p {
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+.foto {
+    max-width: 100%;
+    max-height: 100%;
+
+    border-radius: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5%;
+    margin-bottom: 15%;
+
+}
+
+
+.main-information {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-bottom: 3px solid black;
+
+    width: 100%;
+    max-width: 1024px;
+
+}
+
+.code {
+    text-align: left;
+}
+
+.js-clock {
+    height: 50%;
+    width: 50%;
+}
+
+.photofilter {
+    height: 50%;
+    width: 50%;
+}
+
+.my_works {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.my_works a {
+    vertical-align: middle;
+    padding: 10px 10px;
+}
+
+
+footer {
+    display: flex;
+    padding-top: 10px;
+    align-items: center;
+    justify-content: space-around;
+
+    width: 100%;
+    max-width: 1024px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+.gitHab_svg {
+    vertical-align: middle;
+}
